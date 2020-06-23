@@ -3,14 +3,14 @@ var mainCanvas = null;
 var fullscreenCanvas = null;
 var showAsMinimal = false;
 var keyZones = [
-  ["right", [39]],
-  ["left", [37]],
-  ["up", [38]],
-  ["down", [40]],
-  ["a", [88, 74]],
-  ["b", [90, 81, 89]],
+  ["right", [9]],
+  ["left", [7]],
+  ["up", [5]],
+  ["down", [8]],
+  ["a", [4, 74]],
+  ["b", [6, 81, 89]],
   ["select", [16]],
-  ["start", [13]]
+  ["start", [0]]
 ];
 var cout = console.log.bind(console);
 function startGame (blob) {
